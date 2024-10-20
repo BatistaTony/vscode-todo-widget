@@ -1,71 +1,28 @@
-# todo-widget README
+# To-Do Widget for VSCode
 
-This is the README for your extension "todo-widget". After writing up a brief description, we recommend including the following sections.
+The To-Do Widget is a simple and elegant to-do list extension for Visual Studio Code. This extension allows users to manage tasks directly within the VSCode interface. With smooth animations and a clean design, organizing and tracking your tasks has never been easier.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Add Tasks**: Easily add new tasks via the input box that stays at the top of your task list.
+- **Mark as Done**: Quickly mark tasks as completed by clicking the checkmark icon, which updates the task visually.
+- **Edit Tasks**: Double-click any task to edit its content. Modify the text and press Enter to save your changes.
+- **Delete Tasks**: Remove tasks with a smooth fade-out animation to keep your to-do list neat and tidy.
+- **Persistent State**: All tasks are stored locally and persist even when you restart VSCode, ensuring your to-do list stays up-to-date.
+- **Error Handling**: Prevents the addition of duplicate tasks and displays dynamic error messages when needed.
+- **Sleek UI**: A modern, minimalistic design with smooth animations and a responsive interface that adapts to your screen.
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
+This extension is perfect for users who need a simple yet powerful to-do list solution directly inside their favorite code editor, VSCode.
 
-\!\[feature X\]\(images/feature-x.png\)
+![Screenshot 2024-10-20 at 04 00 05](https://github.com/user-attachments/assets/e74a5e2f-ce61-4ee3-b787-0027b16f2f8f)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+I'm going to continue work on this widget to make it a better extension for daily basis.
 
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
