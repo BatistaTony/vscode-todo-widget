@@ -20,7 +20,7 @@ This extension is perfect for users who need a simple yet powerful to-do list so
 
 ## Release Notes
 
-I'm going to continue work on this widget to make it a better extension for daily basis.
+The work of this widget is still in progress.
 
 ### 1.0.0
 
