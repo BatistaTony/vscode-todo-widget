@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import { todoTemplate } from './template';
 
-export class SimpleViewProvider implements vscode.WebviewViewProvider {
+export class ViewProvider implements vscode.WebviewViewProvider {
   private _view?: vscode.WebviewView;
 
   constructor(private readonly context: vscode.ExtensionContext) {}
@@ -24,10 +24,12 @@ export class SimpleViewProvider implements vscode.WebviewViewProvider {
 export function activate(context: vscode.ExtensionContext) {
 	console.log('Todo Widget is Active !');
 
-	const viewProvider = new SimpleViewProvider(context);
+	const viewProvider = new ViewProvider(context);
 
 	context.subscriptions.push(
-		vscode.window.registerWebviewViewProvider('widget', viewProvider) // The ID should match the one in package.json
+		vscode.window.registerWebviewViewProvider('widget', viewProvider) 
 	);
   
 }
+
+export function deactivate() {}
