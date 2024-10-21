@@ -27,7 +27,7 @@ This extension is perfect for users who need a simple yet powerful to-do list so
 
 The work of this widget is still in progress.
 
-### 0.0.1
+### 0.0.2
 
 
 **Enjoy!**
